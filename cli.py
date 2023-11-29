@@ -4,13 +4,6 @@ import time
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
 
-text = """
-Principles of productivity:
-Managing your inflow.
-Systemizing everything that repeats.
-"""
-
-print(text)
 
 while True:
     user_action = input("Type add, show, edit, complete or exit: ")
